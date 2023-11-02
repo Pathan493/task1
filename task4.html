@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pathan 21BRS1080 Task 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: left;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0;
+        }
+
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="password"],
+        select {
+            width: 250px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Pathan 21BRS1080</h1>
+
+<form>
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" required><br>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <label for="rePassword">Re Password:</label>
+    <input type="password" id="rePassword" name="rePassword" required><br>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required><br>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select><br>
+
+    <button type="submit">Save</button>
+</form>
+
+</body>
+</html>
